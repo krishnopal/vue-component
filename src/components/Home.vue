@@ -11,11 +11,11 @@
                         <p>See This All Component Here.</p>
                     </div>
 
-                    <div  class="hover:bg-gray-500 hover:text-white shadow-md transition duration-300 ease-in-out rounded-lg bg-white text-xl text-green-800 font-bold py-2 w-full px-3 border-2 border-green-600 cursor-pointer my-3">
+                    <div @click="showButtonFunction" class="hover:bg-gray-500 hover:text-white shadow-md transition duration-300 ease-in-out rounded-lg bg-white text-xl text-green-800 font-bold py-2 w-full px-3 border-2 border-green-600 cursor-pointer my-3">
                         <p>Button Component</p>
                     </div>
                     <!-- Button Show -->
-                    <div class="bg-white border-2 border-black p-5">
+                    <div v-if="showButton" id="button-handling" class="bg-white border-2 border-black p-5">
                         <!-- frist -->
                         <div class="my-5">
                             <span class="mr-3">
@@ -187,12 +187,40 @@
 import Header from '../components/inc/Header.vue'
 import Footer from '../components/inc/Footer.vue'
 
-// export default{
-//     data(){
-//         return{
-//             buttonData:false
-//         }
+
+const ButtonHandling = {
+  data() {
+    return {
+      showButton: false
+    }
+  },
+  methods: {
+    showButtonFunction() {
+      this.showButton = !this.showButton
+    }
+  }
+}
+
+createApp(ButtonHandling).mount('#button-handling')
+
+// export default {
+//     setup(props) {
+//         const showButton = ref(false);
+//         const showingTerms = ref(false);
+
+//         const toggleTerms = value => {
+//             const { screenview } = useGtag();
+//             screenview({
+//                 screen_name: "termas_window"
+//             });
+//             showingTerms.value = value ?? !showingTerms.value;
+//         };
+//         const showButtonFunction = () => {
+//             showButton.value = true;
+//             showingTerms.value = false;
+//         };
 //     }
-// }
+// };
+
 
 </script>

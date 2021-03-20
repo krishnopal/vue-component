@@ -1,11 +1,7 @@
 <template>
-      <nav class="fixed w-full text-white bg-blue-400 px-4 text-center">
-      <div class="w-full flex flex-wrap mt-0 py-3 text-center">
-        <div class="">
-            <p class="text-center text-lg text-white">
+        <div class="text-center bg-blue-400 text-white h-full py-4 ">
+            <p class=" text-2xl text-white">
                 Vue Components
             </p>
         </div>
-      </div>
-    </nav>
 </template>

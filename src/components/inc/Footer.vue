@@ -1,5 +1,7 @@
 <template>
-    <div class="py-2 mt-3 bg-blue-600 fixed text-center font-blod flex w-full h-16">
-            <div class="text-white">This is Footer Vue Components</div>
+        <div class="text-center bg-blue-400 text-white h-full py-4 ">
+            <p class=" text-2xl text-white">
+                This is Footer Vue Components
+            </p>
         </div>
 </template>

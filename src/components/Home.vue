@@ -11,6 +11,7 @@
                         <p>See This All Component Here.</p>
                     </div>
 
+                    <!-- Button Component -->
                     <div class="hover:bg-gray-500 hover:text-white shadow-md transition duration-300 ease-in-out rounded-lg bg-white text-xl text-green-800 font-bold py-2 w-full px-3 border-2 border-green-600 cursor-pointer my-3">
                         <p>Button Component</p>
                     </div>
@@ -50,6 +51,31 @@
                             <SevenButton/>
                         </div>
                     </div>
+                    <!-- Button Component End-->
+
+                    <!-- Alert Component -->
+                    <div class="hover:bg-gray-500 hover:text-white shadow-md transition duration-300 ease-in-out rounded-lg bg-white text-xl text-green-800 font-bold py-2 w-full px-3 border-2 border-green-600 cursor-pointer my-3">
+                        <p>Alert Component</p>
+                    </div>
+                    <div class="bg-white border-2 border-black p-5">
+                        <div class="mb-2">
+                            <GreenAlert/>
+                        </div>
+                        <div class="mb-2">
+                            <RedAlert/>
+                        </div>
+                        <div class="mb-2">
+                            <BlueAlert/>
+                        </div>
+                        <div class="mb-2">
+                            <YellowAlert/>
+                        </div>
+                        <div class="mb-2">
+                            <PinkAlert/>
+                        </div>
+                    </div>
+                    <!-- Alert Component End-->
+
                 </div>
             </section>
         </div>
@@ -72,6 +98,12 @@ import FourButton from '../components/Button/FourButton.vue'
 import FiveButton from '../components/Button/FiveButton.vue'
 import SixButton from '../components/Button/SixButton.vue'
 import SevenButton from '../components/Button/SevenButton.vue'
+
+import GreenAlert from '../components/Alert/GreenAlert.vue'
+import BlueAlert from '../components/Alert/BlueAlert.vue'
+import RedAlert from '../components/Alert/RedAlert.vue'
+import YellowAlert from '../components/Alert/YellowAlert.vue'
+import PinkAlert from '../components/Alert/PinkAlert.vue'
 
 //  v-if="showButton"
 // @click="showButtonFunction"

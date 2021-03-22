@@ -76,7 +76,7 @@
                     </div>
                     <!-- Alert Component End-->
 
-                    <!-- Alert Component -->
+                    <!-- Avatar Component -->
                     <div class="hover:bg-gray-500 hover:text-white shadow-md transition duration-300 ease-in-out rounded-lg bg-white text-xl text-green-800 font-bold py-2 w-full px-3 border-2 border-green-600 cursor-pointer my-3">
                         <p>Avatar Component</p>
                     </div>
@@ -90,8 +90,25 @@
                         <div class="mb-2">
                             <ThreeAvatar/>
                         </div>
+                        <div class="mb-2">
+                            <FourAvatar/>
+                        </div>
                     </div>
-                    <!-- Alert Component End-->
+                    <!-- Avatar Component End-->
+
+                    <!-- Breadcrumb Component -->
+                    <div class="hover:bg-gray-500 hover:text-white shadow-md transition duration-300 ease-in-out rounded-lg bg-white text-xl text-green-800 font-bold py-2 w-full px-3 border-2 border-green-600 cursor-pointer my-3">
+                        <p>Breadcrumb Component</p>
+                    </div>
+                    <div class="bg-white border-2 border-black p-5">
+                        <div class="mb-4">
+                            <FristBreadcrumb/>
+                        </div>
+                        <div class="mb-2">
+                            <SecondBreadcrumb/>
+                        </div>
+                    </div>
+                    <!-- Breadcrumb Component End-->
 
                 </div>
             </section>
@@ -125,6 +142,11 @@ import PinkAlert from '../components/Alert/PinkAlert.vue'
 import FristAvatar from '../components/Avatar/FristAvatar.vue'
 import SecondAvatar from '../components/Avatar/SecondAvatar.vue'
 import ThreeAvatar from '../components/Avatar/ThreeAvatar.vue'
+import FourAvatar from '../components/Avatar/FourAvatar.vue'
+
+import FristBreadcrumb from '../components/Breadcrumb/FristBreadcrumb.vue'
+import SecondBreadcrumb from '../components/Breadcrumb/SecondBreadcrumb.vue'
+
 
 //  v-if="showButton"
 // @click="showButtonFunction"

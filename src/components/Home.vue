@@ -76,6 +76,23 @@
                     </div>
                     <!-- Alert Component End-->
 
+                    <!-- Alert Component -->
+                    <div class="hover:bg-gray-500 hover:text-white shadow-md transition duration-300 ease-in-out rounded-lg bg-white text-xl text-green-800 font-bold py-2 w-full px-3 border-2 border-green-600 cursor-pointer my-3">
+                        <p>Avatar Component</p>
+                    </div>
+                    <div class="bg-white border-2 border-black p-5">
+                        <div class="mb-2">
+                            <FristAvatar/>
+                        </div>
+                        <div class="mb-2">
+                            <SecondAvatar/>
+                        </div>
+                        <div class="mb-2">
+                            <ThreeAvatar/>
+                        </div>
+                    </div>
+                    <!-- Alert Component End-->
+
                 </div>
             </section>
         </div>
@@ -104,6 +121,10 @@ import BlueAlert from '../components/Alert/BlueAlert.vue'
 import RedAlert from '../components/Alert/RedAlert.vue'
 import YellowAlert from '../components/Alert/YellowAlert.vue'
 import PinkAlert from '../components/Alert/PinkAlert.vue'
+
+import FristAvatar from '../components/Avatar/FristAvatar.vue'
+import SecondAvatar from '../components/Avatar/SecondAvatar.vue'
+import ThreeAvatar from '../components/Avatar/ThreeAvatar.vue'
 
 //  v-if="showButton"
 // @click="showButtonFunction"

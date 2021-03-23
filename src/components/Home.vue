@@ -110,6 +110,47 @@
                     </div>
                     <!-- Breadcrumb Component End-->
 
+
+                    <!-- Card Component -->
+                    <div class="hover:bg-gray-500 hover:text-white shadow-md transition duration-300 ease-in-out rounded-lg bg-white text-xl text-green-800 font-bold py-2 w-full px-3 border-2 border-green-600 cursor-pointer my-3">
+                        <p>Card Component</p>
+                    </div>
+                    <div class="bg-white border-2 border-black p-5">
+                        <div class="mb-4">
+                            <!-- ImageCard -->
+                            <ImageCard/>
+                        </div>
+                        <div class="mb-4">
+                            <!-- imageCardText -->
+                            <ImageText/>
+                        </div>
+                        <div class="mb-4">
+                            <!-- CardTitle -->
+                            <CardTitle/>
+                        </div>
+                        <div class="mb-4">
+                            <!-- FeaturedCard -->
+                            <FeaturedCard/>
+                        </div>
+                        <div class="mb-4">
+                            <!-- QuoteCard -->
+                            <QuoteCard/>
+                        </div>
+                        <div class="mb-4">
+                            <!-- FeaturedCenterCard -->
+                            <FeaturedCenterCard/>
+                        </div>
+                        <div class="mb-4">
+                            <!-- DoubleCard -->
+                            <DoubleCard/>
+                        </div>
+                        <div class="mb-4">
+                            <!-- ThreeCard -->
+                            <ThreeCard/>
+                        </div>
+                    </div>
+                    <!-- Card Component End-->
+
                 </div>
             </section>
         </div>
@@ -146,6 +187,15 @@ import FourAvatar from '../components/Avatar/FourAvatar.vue'
 
 import FristBreadcrumb from '../components/Breadcrumb/FristBreadcrumb.vue'
 import SecondBreadcrumb from '../components/Breadcrumb/SecondBreadcrumb.vue'
+
+import ImageCard from '../components/Card/ImageCard.vue'
+import CardTitle from '../components/Card/CardTitle.vue'
+import FeaturedCard from '../components/Card/FeaturedCard.vue'
+import QuoteCard from '../components/Card/QuoteCard.vue'
+import FeaturedCenterCard from '../components/Card/FeaturedCenterCard.vue'
+import DoubleCard from '../components/Card/DoubleCard.vue'
+import ThreeCard from '../components/Card/ThreeCard.vue'
+import ImageText from '../components/Card/ImageText.vue'
 
 
 //  v-if="showButton"

@@ -110,7 +110,6 @@
                     </div>
                     <!-- Breadcrumb Component End-->
 
-
                     <!-- Card Component -->
                     <div class="hover:bg-gray-500 hover:text-white shadow-md transition duration-300 ease-in-out rounded-lg bg-white text-xl text-green-800 font-bold py-2 w-full px-3 border-2 border-green-600 cursor-pointer my-3">
                         <p>Card Component</p>
@@ -150,6 +149,19 @@
                         </div>
                     </div>
                     <!-- Card Component End-->
+
+                    <!-- Home View Component -->
+                    <div class="hover:bg-gray-500 hover:text-white shadow-md transition duration-300 ease-in-out rounded-lg bg-white text-xl text-green-800 font-bold py-2 w-full px-3 border-2 border-green-600 cursor-pointer my-3">
+                        <p>Home View Component</p>
+                    </div>
+                    <div class="bg-white border-2 border-black p-5">
+                        <div class="mb-4">
+                            <HomeView/>
+                        </div>
+                    </div>
+                    <!-- Home View Component End-->
+
+                    
 
                 </div>
             </section>
@@ -197,6 +209,7 @@ import DoubleCard from '../components/Card/DoubleCard.vue'
 import ThreeCard from '../components/Card/ThreeCard.vue'
 import ImageText from '../components/Card/ImageText.vue'
 
+import HomeView from '../components/HomeView/HomeView.vue'
 
 //  v-if="showButton"
 // @click="showButtonFunction"

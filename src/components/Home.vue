@@ -186,7 +186,27 @@
                     </div>
                     <!-- Blog Component End-->
 
-                    
+                    <!-- Navbar Component -->
+                    <div class="hover:bg-gray-500 hover:text-white shadow-md transition duration-300 ease-in-out rounded-lg bg-white text-xl text-green-800 font-bold py-2 w-full px-3 border-2 border-green-600 cursor-pointer my-3">
+                        <p>Navbar Component</p>
+                    </div>
+                    <div class="bg-white border-2 border-black p-5">
+                        <div class="mb-4">
+                            <div class="py-5 px-10 bg-blue-400 text-white ">
+                                <div class="flex">
+                                    <div class="w-1/2">Navbar</div>
+                                    <div class="w-1/2 justify-right content-right">
+                                        <ul class="flex ">
+                                            <li><a href="">Home</a></li>
+                                            <li><a href="">Home</a></li>
+                                            <li><a href="">Home</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Navbar Component End-->
 
 
                     
